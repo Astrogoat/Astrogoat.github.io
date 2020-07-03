@@ -1,5 +1,14 @@
 <html>
-  <div>
-    test
-  </div>
+  <body>
+  </body>
 </html>
+
+<script type="module">
+  import obj from './index.js';
+
+  let iframe =  document.createElement('iframe');
+
+  iframe.srcdoc = jscode;
+
+  document.body.appendChild(iframe);
+</script>
